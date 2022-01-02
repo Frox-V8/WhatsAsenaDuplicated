@@ -21,7 +21,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v1.3.6 Global Stable',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
+    SESSION: process.env.ASENA_SESSION === undefined ? 'ASENA;;;eyJjbGllbnRJRCI6IjBCamNrUEZKSlRsbGwyWlg2ZG9SeXc9PSIsInNlcnZlclRva2VuIjoiMUAvREJnKzlERE4xN2xTM0wyUzNzRzBaS0pSMkl0blV3OU1qMDlMRkZ3UElaWkRmRGZ5cmF2WjY5OHlYQnA0eWVKN1pseEFZaHZ3a0NoWUE9PSIsImNsaWVudFRva2VuIjoib1FnSjNKeHZOZjhpWFRVT1NGSVBTNGxxVmdGOFBmcVN1eFp1aTlhYVVScz0iLCJlbmNLZXkiOiJPQ21EVEJUcVp5anN2SXYyNmNrN1NTditoNC9LOFc2T0cycUQ2cHZoWlRJPSIsIm1hY0tleSI6Imh5WmdmWmdTNUNEOTdEUUNLNUNqc2dRRGw0SVBkZDgzSHZ2cERXQ1dyNFU9In0=' : process.env.ASENA_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     ANTILINKMSG: process.env.ANTILINK_MESSAGE === undefined ? 'default' : process.env.ANTILINK_MESSAGE,
     AUTOBIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
